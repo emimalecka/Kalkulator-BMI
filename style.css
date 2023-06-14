@@ -1,0 +1,84 @@
+h1 {
+    position: relative;
+    font-size: 40px;
+  }
+ 
+div{
+    font-size: 20px;
+    border: 1px solid lavenderblush;
+    margin: 20px;
+    
+  }
+
+  .container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    background: cornsilk;
+    margin-top: 50px;
+    cursor: pointer;
+    
+    
+  }
+body{
+  background-image: url('rukolaa.avif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+
+#result-BMI {
+    font-size:larger
+} 
+label{ 
+    display: flex;
+}
+button{
+    position: relative;
+}
+
+ /* #input-module {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: auto;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
+    border: 1px solid #000;
+    margin-right: 10px;
+} 
+
+#output-module {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #000;
+    margin-right: 10px;
+}
+
+
+#history-module { 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: auto;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #000;
+    margin-right: 10px; 
+  
+  }  */

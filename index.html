@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Kalkulator BMI</h1>
+    <div class='container'>
+        <!-- Moduł wpisywania parametrów -->
+        <div id="input-module"><h5>Wpisz parametry</h5>
+          <label for="height">Wzrost: </label>
+          <input type="number" id="height" />
+          <br />
+          <label for="weight"><br>Waga: </label>
+          <input type="number" id="weight" />
+          <br />
+          <input type="button" value="Zatwierdź"  onclick="calculateBMI()">
+        </div>
+        <!-- Moduł wyświetlania wyników -->
+        <div id="output-module"> <h5>Twoje wyniki:</h5>
+          <p id="result-message"></p>
+          <p id="result-error"></p>
+          <p id="result-height"></p>
+          <p id="result-weight"></p>
+          <p id="result-BMI"></p>
+          <p id="height-display"></p>
+          <p id="weight-display"></p>
+          <p id="bmi-display"></p>
+        </div>
+        <!-- Moduł wyświetlania historii pomiarów -->
+        <div id="history-module">
+            <h5>Historia pomiarów:</h5>
+            <ul id="measurements-list"></ul>
+            <p>Średnia BMI: <span id="history-average"></span></p>
+            <input type="button" value="Wyczyść" id="clear-button"  onclick="clearHistory()">
+          </div>
+          <div id="result-display">
+            <p><span id="result-height"></span></p>
+            <p><span id="result-weight"></span></p>
+            <p><span id="result-bmi"></span></p>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+  
+
+
